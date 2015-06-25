@@ -1,0 +1,31 @@
+{
+
+	"name": "fixweb/silex-provider-doctrine-orm",
+	"description": "Silex Provider to use Doctrine ERM with Entities and Console",
+	"authors": 
+	[
+	    { 
+	        "name": "Fixweb",
+	        "homepage": "http://www.fixweb.fr",
+	        "email": "ilan@fixweb.fr" 
+	    }
+	],
+
+	"repositories":
+	[{
+	 "type": "vcs",
+	 "url": "git@github.com:fixweb/silex-provider-doctrine-orm.git"
+	}
+	],
+
+	"require": 
+	{
+		"monolog/monolog": "*",
+		"distical/distical": "dev-master"
+	},
+
+	"autoload": 
+	{
+		"classmap": [ "classes" ]
+	}
+}
